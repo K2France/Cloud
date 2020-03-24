@@ -1,0 +1,347 @@
+.container-slides {
+    width: 410px;
+}
+
+.bg:hover {
+    border: 2px #e4e4e4 solid;
+    cursor: pointer;
+}
+
+.bg {
+    position: relative;
+    float: right;
+    border: 2px white solid;
+    
+}
+
+.small {
+    width: 200px;
+}
+
+.meduim {
+    width: 400px;
+}
+
+.orange {
+    background-color: #fe5b1b !important;
+}
+
+.black {
+    background-color: #000000b0 !important;
+}
+
+.gray {
+    background-color: #bebebe !important;
+}
+
+.bg .branding-bar {
+    width: 70%;
+    display: inline-block;
+    color: white !important;
+    padding-left: 8px;
+    font-size: 13px;
+    float: left;
+}
+
+.bg .badge-bottom {
+    color: white !important;
+    font-size: 12px;
+    float: right;
+    width: 30px
+}
+
+.img-small {
+    height: 80px;
+    width: 80px;
+    margin: 30px 60px;
+}
+
+.img-meduim {
+    margin: 35px 160px;
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-item {
+    border: 1px solid #cecac8;
+    height: 32px;
+    border-radius: 3px;
+    margin: 2px;
+    line-height: 30px;
+    background-color: #f2f2f2
+}
+
+    .nav-item span {
+        padding-left: 12px;
+        color: #e9521e;
+        font-size: 12px;
+    }
+
+    .nav-item:hover {
+        cursor: pointer;
+        background-color: #e9521e;
+    }
+
+        .nav-item:hover span, .activemenu span {
+            cursor: pointer;
+            color: white
+        }
+
+.activemenu {
+    background-color: #e9521e;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+.theme-entry .SourceCode-Forms-Controls-Web-Label,
+.theme-entry .form-field .form-field-label {
+    color: #363636;
+    font-weight: bold !important;
+    color: black !imortant
+}
+
+.theme-entry .grid-header-wrapper .grid-header-text > span,
+.theme-entry .panel-header-wrapper .panel-header-text > span {
+    color: #000 !important
+}
+
+.theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox {
+    background-color: #efefef30;
+    border: 1px solid #d0d0d2;
+    border-radius: 3px;
+    height: 32px
+}
+
+    .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox.readonly {
+        background-color: #f1f1f1;
+        border: 1px solid #d0d0d2;
+        border-radius: 3px;
+        height: 32px
+    }
+
+    .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox.focus {
+        background-color: #f1f1f1;
+        border: 1px solid #d0d0d2;
+        border-radius: 3px;
+        height: 32px;
+        border-bottom: 1px solid #ff7d4a
+    }
+
+.theme-entry .input-control.select-box.read-only {
+    background-color: #f1f1f1 !important;
+    border: 1px solid #d0d0d2;
+    border-radius: 3px;
+}
+
+.theme-entry .dropdown-box.input-control .input-control-wrapper > a {
+    line-height: 30px;
+}
+
+.theme-entry .input-control.select-box .input-control-m-c {
+    height: 32px;
+    line-height: 32px;
+}
+
+.theme-entry .input-control.select-box {
+    background-color: ##efefef30 !important;
+    border: 1px solid #d0d0d2;
+    border-radius: 3px;
+    height: 32px
+}
+
+    .theme-entry .input-control.select-box.active {
+        background-color: ##efefef30 !important;
+        border: 1px solid #d0d0d2;
+        border-radius: 3px;
+        height: 32px;
+    }
+
+.theme-entry .grid-header-wrapper .grid-header-text > span,
+.theme-entry .panel-header-wrapper .panel-header-text > span {
+}
+
+.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-AutoComplete.readonly {
+    background-color: #f1f1f1;
+    border: 1px solid #d0d0d2;
+    border-radius: 3px;
+    height: 32px;
+}
+
+.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-AutoComplete {
+    background-color: #fcfcfc;
+    border: 1px solid #d0d0d2;
+    border-radius: 3px;
+    height: 32px;
+}
+
+.theme-entry .input-control .input-control-m-c {
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.theme-entry .input-control.select-box.dropdown-box .input-control-buttons {
+    overflow: inherit;
+    background-color: #ff7d4a !important;
+}
+
+.theme-entry .input-control.select-box .input-control-buttons {
+    border-color: transparent;
+    border-bottom-color: #ff7d4a;
+}
+
+@media only screen and (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), not all.theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span {
+    background-position: 4px -32px;
+}
+
+.theme-entry .grid table.grid-content-table tr.selected > td span .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td span .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table tr:hover > td span .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table.zebra-stripes tr:not(.action-row):hover > td span .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table tr.selected > td div.grid-content-cell-wrapper .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td div.grid-content-cell-wrapper .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table tr:hover > td div.grid-content-cell-wrapper .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table.zebra-stripes tr:not(.action-row):hover > td div.grid-content-cell-wrapper .input-control-wrapper .input-control {
+    color: #000
+}
+
+.theme-entry .grid table.grid-content-table tr.selected > td span .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td span .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table tr:hover > td span .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table.zebra-stripes tr:not(.action-row):hover > td span .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table tr.selected > td div.grid-content-cell-wrapper .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td div.grid-content-cell-wrapper .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table tr:hover > td div.grid-content-cell-wrapper .input-control-wrapper .input-control,
+.theme-entry .grid table.grid-content-table.zebra-stripes tr:not(.action-row):hover > td div.grid-content-cell-wrapper .input-control-wrapper .input-control {
+    color: #000 !important;
+}
+
+.theme-entry .grid table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode input[type=text],
+.theme-entry .grid table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.theme-entry .grid table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode .input-control-watermark,
+.theme-entry .grid table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode .SourceCode-Forms-Controls-Web-TextBox,
+.theme-entry .grid table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode .input-control .input-control-m-c,
+.theme-entry .grid table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode .input-control .input-control-content,
+.theme-entry .grid table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode .input-control.select-box,
+.theme-entry .grid table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode .input-control-buttons,
+.theme-entry .grid table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode .input-control textarea {
+    color: #000;
+    border-bottom-color: #fff
+}
+
+.theme-entry .input-control.select-box .input-control-buttons a.dropdown > span span,
+.theme-entry .input-control.select-box .input-control-buttons a.dropdown:active > span span,
+.theme-entry .input-control.select-box.active .input-control-buttons a.dropdown > span span,
+.theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:focus > span span,
+.theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:hover > span span,
+.theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover > span span,
+.theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus > span span {
+    background-image: url("/Runtime/Styles/Themes/Grey%20Void/SpriteDesktop@2x.png?v=DAB0A8763DCD0DFD0DB052718094C2FECACCC41FC8A264628D092FEC639CBF7F");
+    background-size: 60px 14666px;
+    background-position: 4px -69px !important;
+}
+
+.theme-entry .input-control.select-box .input-control-buttons {
+    border-color: transparent;
+    border-bottom-color: #ff7d4a;
+    background-color: #ff7d4a !important;
+}
+
+a.date > span span {
+    background-image: url("/runtime/Styles/Themes/Grey%20Void/SpriteDesktop@2x.png?v=DAB0A8763DCD0DFD0DB052718094C2FECACCC41FC8A264628D092FEC639CBF7F") !important;
+    background-size: 60px 14666px !important;
+    background-position: 5px -282px !important;
+}
+
+a.date:hover {
+    background-color: transparent !important;
+}
+
+a.date:active {
+    background-color: transparent !important;
+}
+
+a.dropdown:hover {
+    background-color: transparent !important;
+}
+
+.theme-entry .input-control.select-box .input-control-buttons a.picker-search > span span, .theme-entry .input-control.select-box .input-control-buttons a.picker-search:active > span span, .theme-entry .input-control.select-box.active .input-control-buttons a.picker-search > span span, .theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:hover > span span, .theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:focus > span span {
+    background-image: url(Grey Void/SpriteDesktop@2x.png?v=DAB0A8763DCD0DFD0DB052718094C2FECACCC41FC8A264628D092FEC639CBF7F);
+    background-size: 60px 14666px;
+    background-position: 4px -105px !important;
+}
+
+.theme-entry .input-control.select-box .input-control-buttons a.picker-search > span span, .theme-entry .input-control.select-box .input-control-buttons a.picker-search:active > span span, .theme-entry .input-control.select-box.active .input-control-buttons a.picker-search > span span, .theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:hover > span span, .theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:focus > span span {
+    background-image: url(Grey Void/SpriteDesktop@2x.png?v=DAB0A8763DCD0DFD0DB052718094C2FECACCC41FC8A264628D092FEC639CBF7F);
+    background-size: 60px 14666px;
+    background-position: 4px -174px !important;
+}
+
+
+.theme-entry .input-control.select-box .input-control-buttons a.picker-resolve > span span, .theme-entry .input-control.select-box .input-control-buttons a.picker-resolve:active > span span, .theme-entry .input-control.select-box.active .input-control-buttons a.picker-resolve > span span, .theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-resolve:hover > span span, .theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-resolve:focus > span span, .theme-entry table.grid-content-table .edit-template-row:hover .grid-content-cell.edit-mode .input-control.select-box .input-control-buttons a.picker-resolve > span span {
+    background-image: url(Grey Void/SpriteDesktop@2x.png?v=DAB0A8763DCD0DFD0DB052718094C2FECACCC41FC8A264628D092FEC639CBF7F);
+    background-size: 60px 14666px;
+    background-position: 4px -283px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 255, 255, 255, .8 ) url('http://sampsonresume.com/labs/pIkfp.gif') 50% 50% no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;
+}
+
+    /* Anytime the body has the loading class, our
+   modal element will be visible */
+    body.loading .modal {
+        display: block;
+    }
+
+.theme-entry .input-control.select-box.invalid .input-control-buttons {
+    background-color: #b71c1c !important;   
+    border-color: transparent !important;
+    border-bottom-color: #b71c1c !important;
+}
